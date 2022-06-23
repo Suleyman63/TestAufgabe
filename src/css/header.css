@@ -9,7 +9,7 @@ body {
 }
 
 .modal-open {
-  overflow-y: auto;
+  overflow-y: auto !important;
 }
 header {
   font-family: Verdana;

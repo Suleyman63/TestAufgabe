@@ -7,7 +7,7 @@ body {
 }
 
 .modal-open {
-  overflow-y: auto;
+  overflow-y: auto !important;
 }
 
 .custom-input {
