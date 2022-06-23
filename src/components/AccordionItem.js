@@ -3,13 +3,15 @@ import AccordionDetails from "./AccordionDetails";
 
 const Accordion = () => {
   return (
-    <div className="container accordion">
+    <>
       <div className="accordion-block">
-        {accordionData.map((value, index) => {
-          return <AccordionDetails {...value} key={index} />;
-        })}
+        <div>
+          {accordionData.map((value, id) => {
+            return <AccordionDetails {...value} key={id} />;
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

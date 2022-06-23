@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+
+.container {
+  margin-top: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #fff;
+}
+
+.accordion-wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.accordion-heading {
+  border-bottom: 0.1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#accordion-icons {
+  color: #007aad;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.arrow-icon {
+  cursor: pointer;
+  color: #ad325d;
+}
+.btn-danger {
+  background-color: #ad325d !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: bold;
+  width: 50%;
+}
+.fa-angle-up {
+  color: #882046;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.accordion-description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .btn-danger {
+    width: 70% !important;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-img {
+    width: 100%;
+    height: 300px;
+  }
+  .btn-danger {
+    width: 70% !important;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .accordion-wrap {
+    width: 80% !important;
+  }
+  .btn-danger {
+    width: 80% !important;
+    font-size: 15px !important;
+  }
+  .accordion-title {
+    font-size: 16px;
+  }
+  .accordion-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 120px;
+  }
+  .accordion-block {
+    margin-top: 130px;
+  }
+  .accordion-wrap {
+    width: 90% !important;
+  }
+
+  .accordion-title {
+    font-size: 16px;
+  }
+  .btn-danger {
+    width: 70% !important;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    margin-top: 90px;
+  }
+  .accordion-block {
+    margin-top: 100px;
+  }
+  .accordion-wrap {
+    width: 100% !important;
+    padding-top: 5px;
+  }
+
+  .btn-danger {
+    width: 80% !important;
+    font-size: 12px !important;
+  }
+
+  .accordion-title {
+    font-size: 15px;
+  }
+  .accordion-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .btn-danger {
+    width: 95% !important;
+    font-size: 12px !important;
+  }
+  .accordion-title {
+    font-size: 15px;
+  }
+}
