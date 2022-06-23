@@ -26,7 +26,6 @@ body {
 }
 
 .accordion-heading {
-  border-bottom: 0.1px solid black;
   cursor: pointer;
   display: flex;
   align-items: center;
