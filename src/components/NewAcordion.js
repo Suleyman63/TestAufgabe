@@ -85,7 +85,7 @@ const NewAcordion = () => {
           className="email-modal"
           show={show}
           onHide={handleClose}
-          animation={true}
+          //animation={true}
         >
           <Modal.Header closeButton>
             <Modal.Title>E-Mail-Adresse ändern</Modal.Title>
