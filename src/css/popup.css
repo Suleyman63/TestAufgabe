@@ -11,19 +11,20 @@ body {
 }
 
 #aktuel-email {
-    width: 500px;
-    border: none;
-    font-size: 18px;
+  width: 500px;
+  border: none;
+  font-size: 18px;
 }
 
-#aktuel-email:focus{
-    border: none;
+#aktuel-email:focus {
+  border: none;
 }
 
 .custom-input {
   border-radius: 5px;
   height: 50px;
   font-size: 14px;
+  border: 0.1px solid;
 }
 
 .submit-button {

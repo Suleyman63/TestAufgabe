@@ -104,9 +104,7 @@ body {
   .container {
     margin-top: 120px;
   }
-  .accordion-block {
-    margin-top: 130px;
-  }
+
   .accordion-wrap {
     width: 90% !important;
   }
@@ -122,7 +120,7 @@ body {
 
 @media only screen and (max-width: 576px) {
   .container {
-    margin-top: 90px;
+    margin-top: 40px;
   }
   .accordion-block {
     margin-top: 100px;
@@ -145,7 +143,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 425px) {
   .btn-danger {
     width: 95% !important;
     font-size: 12px !important;

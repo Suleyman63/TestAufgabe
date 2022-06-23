@@ -1,10 +1,11 @@
 import { useState, useRef } from "react";
 import accordionData from "../pages/accordion";
 import { Modal } from "react-bootstrap";
-import PopUp from "./PopUp";
+import PopUpEmailForm from "./PopUpEmailForm";
 import "../css/accordion.css";
 
-const NewAcordion = () => {
+const Accordion = () => {
+  // ! email
   const divEl = useRef(null);
   const [showAcordion, setShowAcordion] = useState(-1);
   const [emaill, setEmaill] = useState("test@familienservice.de");
@@ -13,6 +14,7 @@ const NewAcordion = () => {
     setEmaill(email);
   };
 
+  // ! accordion
   const displayAcordion = (index) => {
     if (index === showAcordion) {
       setShowAcordion(-1);
@@ -65,7 +67,6 @@ const NewAcordion = () => {
                 <button
                   onClick={handleShow}
                   className="btn btn-danger mb-2 mt-5"
-                  // disabled={!item.btnActive}
                 >
                   {item.buton}
                 </button>
@@ -85,14 +86,16 @@ const NewAcordion = () => {
           show={show}
           aria-labelledby="contained-modal-title-vcenter"
           onHide={handleClose}
-          //animation={true}
         >
           <Modal.Header closeButton>
             <Modal.Title>E-Mail-Adresse ändern</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam
-            <PopUp setEmailOnUI={setEmailOnUI} handleClose={handleClose} />
+            <PopUpEmailForm
+              setEmailOnUI={setEmailOnUI}
+              handleClose={handleClose}
+            />
           </Modal.Body>
         </Modal>
       )}
@@ -100,4 +103,4 @@ const NewAcordion = () => {
   );
 };
 
-export default NewAcordion;
+export default Accordion;

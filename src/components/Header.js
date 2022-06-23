@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "../assets/avatar.png";
 import "../css/header.css";
-import NewAcordion from "./NewAcordion";
+import Accordion from "./Accordion";
 
 function Header2() {
   return (
@@ -25,7 +25,7 @@ function Header2() {
         </button>
         <p className="pt-3 profil-name">Devel Oper</p>
       </div>
-      <NewAcordion />
+      <Accordion />
     </header>
   );
 }
