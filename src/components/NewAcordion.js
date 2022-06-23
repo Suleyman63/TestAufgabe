@@ -31,7 +31,7 @@ const NewAcordion = () => {
         {accordionData.map((item, index) => (
           <div className="accordion-cap" key={index}>
             <div
-              className="accordion-heading"
+              className="accordion-heading border-bottom"
               onClick={() => displayAcordion(index)}
             >
               <div className="d-flex align-items-center">
