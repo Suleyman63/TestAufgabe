@@ -39,7 +39,7 @@ const Accordion = () => {
                   className="accordion-heading border-bottom"
                   onClick={() => displayAcordion(index)}
                 >
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center accordion-div">
                     <i className={icon} id="accordion-icons"></i>
                     <h6 className="accordion-title mx-4">{title}</h6>
                   </div>
