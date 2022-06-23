@@ -83,8 +83,6 @@ const NewAcordion = () => {
       {showAcordion === 1 && (
         <Modal
           show={show}
-          size="sm"
-          centered
           aria-labelledby="contained-modal-title-vcenter"
           onHide={handleClose}
           //animation={true}

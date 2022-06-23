@@ -2,6 +2,14 @@
   font-family: Verdana;
 }
 
+body {
+  padding-right: 0px !important;
+}
+
+.modal-open {
+  overflow-y: auto;
+}
+
 .custom-input {
   border-radius: 5px;
   height: 50px;

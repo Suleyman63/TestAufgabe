@@ -3,6 +3,13 @@
   padding: 0;
   font-family: Verdana;
 }
+body {
+  padding-right: 0px !important;
+}
+
+.modal-open {
+  overflow-y: auto;
+}
 
 .container {
   margin-top: 10px;
