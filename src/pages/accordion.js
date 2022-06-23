@@ -7,7 +7,7 @@ const accordionData = [
       suscipit commodi eum enim atque at? Et perspiciatis dolore iure
       voluptatem.`,
     buton: `E-MAIL-BENACHRICHTUNGEN VERVWALTEN`,
-    url: `fas fa-envelope`,
+    icon: `fas fa-envelope`,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const accordionData = [
     description: `Du hast eine neue E-Mail-Adressse? Hier kannst du jederzeit deine E-Mail-Adresse ändern 
     Deine aktuelle E-Mail-Adressse: `,
     buton: `E-MAIL ADRESSE ÄNDERN`,
-    url: `fas fa-at`,
+    icon: `fas fa-at`,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const accordionData = [
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
     buton: `PASSWORD ÄNDERN`,
-    url: `fas fa-lock`,
+    icon: `fas fa-lock`,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const accordionData = [
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
     buton: `ONLINEDARSTELLUNG VERWALTEN`,
-    url: `fas fa-tasks`,
+    icon: `fas fa-tasks`,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const accordionData = [
       quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
       dolor ut sequi minus iste? Quas?`,
     buton: `BENUTZERKONTO LOSCHEN`,
-    url: `fa-solid fa-circle-xmark`,
+    icon: `fa-solid fa-circle-xmark`,
   },
 ];
 
