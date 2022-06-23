@@ -36,7 +36,7 @@ const NewAcordion = () => {
             >
               <div className="d-flex align-items-center">
                 <i className={item.url} id="accordion-icons"></i>
-                <h6 className="accordion-title mx-4 mt-2">{item.title}</h6>
+                <h6 className="accordion-title mx-4">{item.title}</h6>
               </div>
               <p className="arrow-icon mt-2">
                 {showAcordion === index ? (
