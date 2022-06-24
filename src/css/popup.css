@@ -13,7 +13,7 @@ body {
 #aktuel-email {
   width: 500px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #aktuel-email:focus {
