@@ -100,7 +100,7 @@ header {
 
 @media (max-width: 576px) {
   #profile-picture-switch-container {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   header {
